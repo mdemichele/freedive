@@ -1,0 +1,70 @@
+/* PHC Theme Button Styling */
+.phc-button-1 {
+  border: 2px solid $phc-light-green;
+  color: $phc-light-green;
+  font-weight: 400;
+  padding: 15px 30px;
+  width: 200px;
+}
+
+.phc-button-1:hover {
+  background: $phc-light-green;
+  color: black;
+  border: 2px solid $phc-light-green;
+}
+
+.phc-button-2 {
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  font-weight: 400;
+  width: 200px;
+}
+
+.phc-button-2:hover {
+  background: white;
+  border: 2px solid white;
+  color: black;
+  background-color: none;
+}
+
+a.phc-button-small {
+  background: $phc-light-green;
+  color: white;
+  border: 2px solid $phc-light-green;
+  padding: 10px 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 200px;
+  transition: 0.25s;
+}
+
+a.phc-button-small:hover {
+  background: none;
+  color: $phc-light-green;
+  transition: 0.25s;
+}
+
+input.phc-button-small {
+  background: $phc-light-green;
+  color: white;
+  border: 2px solid $phc-light-green;
+  padding: 10px 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 200px;
+  transition: 0.25s;
+}
+
+input.phc-button-small:hover {
+  background: none;
+  color: $phc-light-green;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+

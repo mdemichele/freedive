@@ -1,0 +1,29 @@
+.phc-calendar-section {
+    padding: 50px;
+    height: 1000px;
+}
+
+.desk-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .phc-calendar-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
+    .desk-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+}

@@ -1,0 +1,133 @@
+// Styles for courses section
+.spear-courses {
+    padding: 80px 0px 80px 80px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.spear-title-container {
+    width: 80%;
+    padding: 100px 0px;
+}
+
+h2.spear-title {
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+// Courses Title Container 
+.courses-blurb-container {
+    width: 45%;
+    height: 800px;
+    padding: 0px 40px 0px 0px;
+}
+
+p.blurb-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.blurb-courses {
+    padding-top: 80px;
+    display: block;
+}
+
+a.blurb-button {
+    color: black;
+    text-transform: underline;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a.blurb-button span {
+    padding-left: 10px;
+}
+
+a.blurb-button:hover {
+    text-transform: none;
+    border-bottom: none;
+}
+
+// Course Box 
+.course {
+    padding: 40px 60px;
+    border-bottom: 0.5px solid #dedede;
+    cursor: pointer;
+}
+
+.selected-course {
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.course-hidden {
+    display: none;
+}
+
+.show-hidden-details {
+    display: block;
+}
+
+.courses-right-container {
+    width: 50%;
+    height: 800px;
+    background-image: url("/assets/images/spear-9.jpg");
+    background-size: cover;
+}
+
+a.course-button {
+    color: black;
+    text-transform: underline;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+a.course-button span {
+    padding-left: 5px;
+}
+
+a.course-button:hover {
+    text-transform: none;
+    border-bottom: none;
+}
+
+
+/* Mobile Styling */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .spear-courses {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h2.spear-title {
+        font-size: 64px;
+    }
+
+    div.courses-blurb-container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    div.courses-right-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    
+}

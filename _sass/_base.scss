@@ -1,0 +1,118 @@
+// Meetup Sitewide Styles
+.section-header h2::after, .section-header h3::after {
+  background: $phc-light-green;
+}
+
+.meetup-section {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.meetup-left-half {
+  width: 50%;
+  height: 720px; 
+  position: relative; 
+  background-image: url("/assets/images/spearfish-7.jpg");
+  background-size: cover;
+  //background: rgba(23, 37, 42, 1);
+}
+
+.spear-right-half { 
+  width: 50%; 
+  padding: 60px 200px 60px 60px; 
+  height: 720px; 
+  position: relative; 
+  background: rgba(23, 37, 42, 1); 
+}
+
+.spear-left-half {
+  width: 50%;
+  height: 720px; 
+  position: relative; 
+  background-image: url("/assets/images/spearfish-7.jpg");
+  background-size: cover;
+  //background: rgba(23, 37, 42, 1);
+}
+
+.meetup-right-half { 
+  width: 50%; 
+  padding: 60px 200px 60px 60px; 
+  height: 720px; 
+  position: relative; 
+  background: rgba(23, 37, 42, 1); 
+}
+
+#booking-2-section {
+  flex-direction: row-reverse;
+}
+
+#booking-2-left {
+  background-image: url("/assets/images/@stock/spearfish-8.jpg");
+}
+
+#booking-2-right {
+  background: $phc-dark-green;
+}
+
+
+@media screen and (max-width: 768px) {
+  .meetup-section {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .meetup-left-half {
+    width: 100%;
+    height: 300px;
+    background-position-y: 50%;
+  }
+  .meetup-right-half {
+    width: 100%;
+    height: 600px;
+    padding: 20px 50px 20px 20px;
+  }
+
+  .spear-right-half { 
+  width: 50%; 
+  padding: 60px 200px 60px 60px; 
+  height: 720px; 
+  position: relative; 
+  background: rgba(23, 37, 42, 1); 
+}
+
+  .spear-left-half {
+  width: 50%;
+  height: 720px; 
+  position: relative; 
+  background-image: url("/assets/images/spearfish-7.jpg");
+  background-size: cover;
+  //background: rgba(23, 37, 42, 1);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .meetup-right-half {
+    height: 600px;
+    padding: 10px 20px 10px 10px;
+  }
+   .spear-right-half { 
+  width: 50%; 
+  padding: 60px 200px 60px 60px; 
+  height: 720px; 
+  position: relative; 
+  background: rgba(23, 37, 42, 1); 
+}
+
+}
+
+// Client Section 
+.testimonials-headshot {
+  border-radius: 50%;
+}
+
+h2#booking-section-title {
+  font-weight: 700;
+}

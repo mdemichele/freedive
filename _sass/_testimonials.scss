@@ -1,0 +1,46 @@
+// Testimonial Section 
+section.home-testimonial-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+// Testimonial Title 
+div.testimonial-title-container {
+    width: 40%;
+}
+
+h3.person-name {
+    font-size: 64px;
+    font-weight: 300;
+    border-bottom: 1px solid #333;
+}
+
+p.person-result {
+    font-size: 16px;
+}
+
+// Testimonial Message
+div.testimonial-message-container {
+    width: 40%;
+}
+
+div.message-box {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* Tablet Styling */
+@media screen and (max-width: 768px) {
+    div.testimonial-title-container {
+        width: 100%;
+    };
+
+    div.testimonial-message-container {
+        width: 100%;
+    }
+}
+

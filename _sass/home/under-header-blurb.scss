@@ -1,0 +1,9 @@
+// Pacific Hill: Section right underneath the header
+p.phc-small-title {
+  color: $phc-light-green;
+}
+
+// This is the little bar underneath the subheading
+.section-title p.small-title::after {
+  background: $phc-light-green;
+}

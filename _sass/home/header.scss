@@ -1,0 +1,10 @@
+// Pacific Hill Capital Header Stylings 
+
+p.header-small-title {
+  color: $phc-light-green;
+}
+
+// This is the little bar underneath the header big title
+.fullscreen .layer h1::after {
+  background: $phc-light-green;
+}

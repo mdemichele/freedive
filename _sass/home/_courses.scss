@@ -1,0 +1,18 @@
+.meetup-courses-section {
+    padding: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    .meetup-courses-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.courses-title {
+    margin-top: 50px;
+}
+
+.course-buy-button {
+    padding-top: 25px;
+}
